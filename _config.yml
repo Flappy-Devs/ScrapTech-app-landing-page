@@ -39,12 +39,24 @@ mastodon_link                             : #https://mastodon.social/@ebaehr
 features                                  :
 
   - title: Tiện lợi & Chủ động
-    description: Đặt lịch thu gom tận nhà và biết trước khoảng giá trị của món đồ mình sắp bán, không cần phải chực chờ xe đi ngang qua.
+    description: Đặt lịch thu gom tận nhà theo khung giờ bạn chọn, không cần phải chực chờ xe đi ngang qua một cách bị động.
     fontawesome_icon_name: calendar-check
 
   - title: Minh bạch & Tin cậy
-    description: Cung cấp bảng giá rõ ràng và hệ thống đánh giá người mua, xóa bỏ cảm giác lo lắng bị ép giá hay cân điêu.
+    description: Cung cấp bảng giá cập nhật theo thời gian thực (real-time) và hệ thống đánh giá uy tín, xóa bỏ nỗi lo bị ép giá hay cân điêu.
     fontawesome_icon_name: balance-scale
+
+  - title: Định giá qua hình ảnh
+    description: Chỉ cần chụp ảnh phế liệu, hệ thống sẽ hỗ trợ định giá sơ bộ nhanh chóng, giúp bạn an tâm trước khi giao dịch.
+    fontawesome_icon_name: camera
+
+  - title: Theo dõi lộ trình
+    description: Nắm bắt toàn bộ quy trình một cách minh bạch. Cập nhật trạng thái và theo dõi lộ trình người thu gom khi họ "Đang đến".
+    fontawesome_icon_name: map-marker-alt
+
+  - title: Giao dịch thực chất
+    description: Tôn trọng trải nghiệm của bạn bằng việc tập trung vào nhu cầu bán được giá và nhận tiền rõ ràng, thay vì hệ thống đổi điểm phức tạp.
+    fontawesome_icon_name: hand-holding-usd
 
   - title: Bảo vệ môi trường
     description: Khuyến khích thói quen phân loại rác tại nhà, giúp tăng tỷ lệ tái chế nhựa, giấy, kim loại và đồ điện tử cũ.
