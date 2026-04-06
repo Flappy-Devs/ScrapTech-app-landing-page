@@ -608,7 +608,67 @@ nav > ul li a:active {
 	
 } 
 
+// Additional contents sections
 
+.problem-solution-section { grid-area: ps; padding-top: 100px; }
+.target-users-section { grid-area: tu; padding-top: 60px; }
+.showcase-section { grid-area: sc; padding-top: 100px; }
+
+.section-title {
+	text-align: center;
+	margin-bottom: 40px;
+	h2 { font-size: 3rem; font-weight: bold; }
+	p { color: $feature-text-color; margin-top: 10px; font-size: 1.8rem; }
+}
+
+.ps-container, .tu-container, .showcase-container {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.ps-box, .user-card {
+	background: #fdfdfd;
+	padding: 30px;
+	border-radius: 15px;
+	flex: 1;
+	min-width: 300px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+	border: 1px solid #eee;
+	
+	h3 { color: #000; margin-bottom: 20px; font-weight: bold;}
+	ul { margin-left: 20px; color: $feature-text-color; }
+	li { margin-bottom: 10px; line-height: 1.5; font-size: 1.6rem; }
+	p { color: $feature-text-color; margin-bottom: 15px; line-height: 1.5; font-size: 1.6rem; }
+}
+
+.solution-box { border-top: 4px solid #28a745; }
+.problem-box { border-top: 4px solid #e74c3c; }
+
+.user-icon {
+	font-size: 3.5rem;
+	color: #28a745;
+	margin-bottom: 15px;
+}
+
+.screen-placeholder {
+	text-align: center;
+	.screen-box {
+		width: 250px;
+		height: 520px;
+		background: #f5f5f5;
+		border-radius: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #999;
+		margin-bottom: 15px;
+		border: 2px dashed #ccc;
+		font-size: 1.4rem;
+	}
+	p { color: #000; font-weight: bold; font-size: 1.6rem;}
+}
 
 // Footer
 
@@ -692,62 +752,3 @@ footer {
 	display: none;
 }
 
-.problem-solution-section { grid-area: ps; padding-top: 100px; }
-.target-users-section { grid-area: tu; padding-top: 60px; }
-.showcase-section { grid-area: sc; padding-top: 100px; }
-
-.section-title {
-	text-align: center;
-	margin-bottom: 40px;
-	h2 { font-size: 3rem; font-weight: bold; }
-	p { color: $feature-text-color; margin-top: 10px; font-size: 1.8rem; }
-}
-
-.ps-container, .tu-container, .showcase-container {
-	display: flex;
-	gap: 30px;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.ps-box, .user-card {
-	background: #fdfdfd;
-	padding: 30px;
-	border-radius: 15px;
-	flex: 1;
-	min-width: 300px;
-	box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-	border: 1px solid #eee;
-	
-	h3 { color: #000; margin-bottom: 20px; font-weight: bold;}
-	ul { margin-left: 20px; color: $feature-text-color; }
-	li { margin-bottom: 10px; line-height: 1.5; font-size: 1.6rem; }
-	p { color: $feature-text-color; margin-bottom: 15px; line-height: 1.5; font-size: 1.6rem; }
-}
-
-.solution-box { border-top: 4px solid #28a745; }
-.problem-box { border-top: 4px solid #e74c3c; }
-
-.user-icon {
-	font-size: 3.5rem;
-	color: #28a745; // Đổi theo màu $accent-color của bạn
-	margin-bottom: 15px;
-}
-
-.screen-placeholder {
-	text-align: center;
-	.screen-box {
-		width: 250px;
-		height: 520px;
-		background: #f5f5f5;
-		border-radius: 30px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: #999;
-		margin-bottom: 15px;
-		border: 2px dashed #ccc;
-		font-size: 1.4rem;
-	}
-	p { color: #000; font-weight: bold; font-size: 1.6rem;}
-}
