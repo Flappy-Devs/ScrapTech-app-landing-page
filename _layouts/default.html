@@ -65,10 +65,14 @@
                     </div>
                     <div class="designLinksContainer" style="margin-top: 20px;">
                         {% if site.figma_link %}
-                        <a href="{{ site.figma_link }}" class="design-btn figma-btn">Xem trên Figma</a>
+                        <a href="{{ site.figma_link }}" class="design-button figma-btn" target="_blank">
+                            <i class="fab fa-figma"></i> Xem trên Figma
+                        </a>
                         {% endif %}
                         {% if site.behance_link %}
-                        <a href="{{ site.behance_link }}" class="design-btn behance-btn">Xem trên Behance</a>
+                        <a href="{{ site.behance_link }}" class="design-button behance-btn" target="_blank">
+                            <i class="fab fa-behance"></i> Xem trên Behance
+                        </a>
                         {% endif %}
                     </div>
                 </div>
