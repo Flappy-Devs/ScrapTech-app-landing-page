@@ -7,8 +7,8 @@ ios_app_country                           : #us                                 
 
 appstore_link                             : https://youtu.be/dQw4w9WgXcQ?si=xqrpeKBRBK0SHWA-                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://youtu.be/dQw4w9WgXcQ?si=xqrpeKBRBK0SHWA-                                          # Enter Google Play Store URL.
-figma_link                                : 
-behance_link                              : 
+figma_link                                : https://www.figma.com/design/vY5qTLvdOu8VWdzLPw0Mmr/ScrapTech?node-id=40000009-1634&t=hRs8sXHFx2gU7e8L-1
+behance_link                              : https://www.behance.net/gallery/247594597/ScrapTech
 presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
